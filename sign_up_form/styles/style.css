@@ -8,23 +8,44 @@ body{
 
 .sidebar {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-image: url("../images/background2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 40%;
     height: 100vh;
     background-position: center;
-}
-
-.sidebar .img-credit{
-    position: absolute;
-    bottom: 10px;
-    font-size: 12px;
-    font-weight: 100;
     color: white;
 }
 
+.sidebar .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 99, 99, 0.5);
+    width: 100%;
+    top: 20vh;
+    position: relative;
+}
+
+.sidebar .hero-img{
+    display: flex;
+    height: 125px;
+    margin: 1rem;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.sidebar .img-credit{
+    font-size: 12px;
+    font-weight: 100;
+    margin: 1rem;
+}
+
+h1{
+    font-size: 75px;
+}
 a{
     color: white;
 }
