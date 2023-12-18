@@ -1,10 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display: flex 
 }
 
 .sidebar {
+    display: flex;
+    justify-content: center;
     background-image: url("../images/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 40%;
     height: 100vh;
     background-position: center;
+}
+
+.sidebar .img-credit{
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+}
+
+a{
+    color: white;
 }
