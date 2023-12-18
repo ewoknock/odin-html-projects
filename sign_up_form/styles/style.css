@@ -6,7 +6,6 @@
 body{
     display: flex;
     font-family: "Roboto", sans-serif;
-
 }
 
 .sidebar {
@@ -21,15 +20,16 @@ body{
     height: 100vh;
     background-position: center;
     color: white;
+    overflow: hidden;
 }
 
 .sidebar .hero{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(99, 99, 99, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    top: 20vh;
+    top: min(calc(100vw * 0.2 - 100px), 100px);
     position: relative;
 }
 
@@ -56,7 +56,14 @@ a{
 
 .main{
     background-color: #f7f8fa;
-    ;
+    flex-grow: 1;
+}
+
+.cta{
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: max(10px, min(calc(100vw * 0.2 - 100px), 100px));
+    margin-bottom: max(10px, min(calc(100vw * 0.2 - 100px), 30px));
 }
 
 .form{
@@ -66,6 +73,7 @@ a{
     flex-direction: column;
     padding: 1rem 3rem;
 }
+
 .form-row{
     display: flex;
 }
@@ -75,6 +83,10 @@ a{
     flex-direction: column;
     margin-right: 50px;
     margin-top: 12px;
+}
+
+input{
+    width: 15rem;
 }
 
 
