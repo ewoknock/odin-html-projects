@@ -1,0 +1,10 @@
+body{
+    display: flex 
+}
+
+.sidebar {
+    background-image: url("../images/background2.jpg");
+    width: 40%;
+    height: 100vh;
+    background-position: center;
+}
