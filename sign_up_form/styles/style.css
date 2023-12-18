@@ -54,6 +54,31 @@ a{
     color: white;
 }
 
+.main{
+    background-color: #f7f8fa;
+    ;
+}
+
+.form{
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1rem 3rem;
+}
+.form-row{
+    display: flex;
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 12px;
+}
+
+
+
 @font-face {
     font-family: "Norse-Bold";
     src: url("../fonts/Norse-Bold.otf");
