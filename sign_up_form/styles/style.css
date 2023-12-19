@@ -1,3 +1,6 @@
+:root{
+    --shadow-color: #616161;
+}
 *{
     margin: 0;
     padding: 0;
@@ -72,7 +75,7 @@ a{
     flex-direction: column;
     flex-grow: 1;
     background-color: white;
-    box-shadow: 0 0 10px #616161;
+    box-shadow: 0 0 10px var(--shadow-color);
     padding: 1rem 3rem 1.5rem 3rem;
 }
 
@@ -117,6 +120,12 @@ input{
     border-radius: 7px;
     height: 1.5rem;
     padding: 4px 8px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #2f5fe2;
+    box-shadow: 0 0 5px var(--shadow-color);
 }
 
 legend{
