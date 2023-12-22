@@ -19,7 +19,7 @@
 }
 
 .search-field{
-    width: clamp(10rem, calc(1.5*var(--sidebar-width)), 40rem);
+    max-width: calc(1.5*var(--sidebar-width));
     background-color: #e4e4e7;
     border: none;
     border-radius: 1rem;
