@@ -1,0 +1,36 @@
+.header{
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+.search-bar{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    margin-left: 1rem;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.header img{
+    width: 25px;
+}
+
+.search-field{
+    width: clamp(10rem, calc(1.5*var(--sidebar-width)), 40rem);
+    background-color: #e4e4e7;
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+}
+
+.search-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: var(--sidebar-width);
+    padding-right: 1rem;
+    gap: 1rem;
+}
