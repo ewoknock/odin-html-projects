@@ -47,7 +47,7 @@ button{
     border: none;
     border-radius: 2rem;
     color: white;
-    padding: .8rem;
+    padding: .6rem 0;
     width: calc(.3*var(--sidebar-width));
 }
 
