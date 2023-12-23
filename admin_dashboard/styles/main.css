@@ -8,6 +8,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 1rem;
+    gap: 1.5rem;
 }
 
 .card{
@@ -23,7 +24,6 @@
 .card p{
     color: #999;
     font-size: 0.8rem;
-    margin-top: auto;
 }
 
 .card-actions{
