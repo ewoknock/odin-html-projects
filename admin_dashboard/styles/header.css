@@ -2,8 +2,10 @@
     display: grid;
     padding: 1rem;
     gap: 2rem;
-    margin-right: 2rem;
     font-weight: 700;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
 }
 
 .search-bar,
@@ -13,6 +15,7 @@
     margin-left: 1rem;
     gap: 1rem;
     align-items: center;
+    margin-right: 2rem;
 }
 
 .header img{
