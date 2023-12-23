@@ -15,8 +15,8 @@
 
 body{
     display: grid;
-    grid-template-columns: var(--sidebar-width) 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: 1.35fr 5fr;;
+    grid-template-rows: 1fr 6fr;
     height: 100vh;
     font-family: "Roboto", sans-serif;
 }
