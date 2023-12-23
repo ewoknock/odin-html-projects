@@ -1,50 +1,58 @@
 .header{
     display: grid;
-    padding: 1rem;
-    gap: 2rem;
-    font-weight: 700;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: .7rem 0 .5rem 0;
+    gap: 1rem;
     position: relative;
     z-index: 2;
     background-color: white;
     grid-column: 2 / 3;
+    font-weight: 900;
 }
 
 .search-bar,
 .user-bar{
     display: grid;
     grid-template-columns: auto 1fr auto;
-    margin-left: 1rem;
     gap: 1rem;
+    margin-right: 2.4rem; 
+    margin-left: 2.5rem;
     align-items: center;
-    margin-right: 2rem;
 }
 
 .header img{
-    width: 25px;
+    width: 23px;
 }
 
 .search-field{
-    max-width: calc(1.5*var(--sidebar-width));
-    background-color: #e4e4e7;
+    max-width: calc(1.59*var(--sidebar-width));
+    background-color: var(--color-main);
     border: none;
     border-radius: 1rem;
-    padding: .5rem 1rem;
+    padding: .4rem 1rem;
 }
 
 .search-buttons{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: var(--sidebar-width);
-    padding-right: 1rem;
-    gap: 1rem;
+    padding-right: 2rem;
+    gap: 1.4rem;
+}
+
+.search-buttons img:first-child{
+    width: 24px;
+}
+
+.search-buttons img:nth-child(2){
+    width: 50px;
 }
 
 .action-buttons{
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 1.5rem;
+    padding-right: 1.1rem;
 }
 
 button{
@@ -52,25 +60,29 @@ button{
     border: none;
     border-radius: 2rem;
     color: white;
-    padding: .6rem 0;
-    width: calc(.3*var(--sidebar-width));
+    padding: .75rem 1.7rem;
 }
 
 .user-bar img{
-    width: 65px;
+    width: 75px;
     align-items: center;
 }
 
 .welcome{
     display: grid;
     grid-template-rows: 1fr 2fr;
+    gap: .3rem;
     font-size: .8rem;
 }
 
 .greeting{
     align-self: end;
 }
-.user-name{
+
+.search-buttons .user-name{
+    align-self: center;
+}
+.user-bar .user-name{
     align-self: start;
     font-size: 1.3rem;
 }

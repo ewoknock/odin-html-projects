@@ -10,6 +10,7 @@
 :root{
     --sidebar-width: 20rem;
     --color-blue: #0896d8;
+    --color-main: rgb(233, 238, 255);
     --card-box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
 }
 
