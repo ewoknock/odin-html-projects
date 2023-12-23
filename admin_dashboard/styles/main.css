@@ -1,3 +1,7 @@
+main{
+    background-color: rgb(233, 238, 255);
+}
+
 .content{
     display: grid;
     grid-template-columns: 2.5fr 1fr;
@@ -27,16 +31,19 @@ h3{
 }
 
 .card p{
-    color: #999;
-    font-size: 0.8rem;
+    color: #6e6e6e;
+    font-size: 0.9rem;
+    font-weight: 400;
+    flex-grow: 1;
 }
 
 .card-actions{
-    margin-top: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
     align-self: flex-end;
 }
 
 .card img{
-    width: 25px;
-    opacity: .6;
+    width: 20px;
 }
